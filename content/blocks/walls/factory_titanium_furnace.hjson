@@ -1,0 +1,9 @@
+{
+    type: Wall
+    health: 500
+    category: defense
+    requirements:
+    [
+        copper/1
+    ]
+}

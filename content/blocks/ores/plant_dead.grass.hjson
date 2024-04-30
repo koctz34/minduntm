@@ -1,0 +1,10 @@
+{
+    type: Wall
+    health: 100
+    category: effect
+    hasShadow: "false"
+    requirements:
+    [
+        copper/1
+    ]
+}

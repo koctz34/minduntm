@@ -1,0 +1,11 @@
+{
+    type: LightBlock
+    health: 500
+    brightness: 110
+    radius: 100
+    category: effect
+    requirements:
+    [
+        copper/1
+    ]
+}
