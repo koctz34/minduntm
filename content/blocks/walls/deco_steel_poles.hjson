@@ -2,6 +2,7 @@
     type: Wall
     health: 500
     category: defense
+	rotate: true
     requirements:
     [
         copper/1
