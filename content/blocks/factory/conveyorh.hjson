@@ -1,4 +1,4 @@
-{
+
     type: "Conveyor",
     category: "distribution",
     health: 150,
@@ -8,4 +8,3 @@
         plate_iron/2
 		ingot_rubber/6
     ]
-}
