@@ -1,7 +1,7 @@
 {
     type: Wall
-    health: 500
     hasShadow: "false"
+    health: 200
     category: effect
     requirements:
     [

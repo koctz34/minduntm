@@ -1,0 +1,11 @@
+{
+    type: "Conveyor",
+    category: "distribution",
+    health: 150,
+    speed: 0.03,
+    displayedSpeed: 4.2,
+    requirements: [
+        plate_iron/2
+		ingot_rubber/6
+    ]
+}

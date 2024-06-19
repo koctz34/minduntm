@@ -1,0 +1,9 @@
+{
+    type: Wall
+    health: 500
+    category: turret
+    requirements:
+    [
+        copper/1
+    ]
+}

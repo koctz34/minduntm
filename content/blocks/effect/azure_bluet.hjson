@@ -1,7 +1,8 @@
 {
     type: Wall
-    health: 500
-    category: defense
+    hasShadow: "false"
+    health: 200
+    category: effect
     requirements:
     [
         copper/1
