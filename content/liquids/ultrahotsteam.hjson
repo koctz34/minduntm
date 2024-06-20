@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#f9cccc"
+	name: Раскаленный пар
+	gas: true
+}

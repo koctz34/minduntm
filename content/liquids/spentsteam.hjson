@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#d5d8f1"
+	name: Пар низкого давления
+	gas: true
+}

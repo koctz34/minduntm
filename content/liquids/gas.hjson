@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#fffeed"
+	name: Природный газ
+	gas: true
+}

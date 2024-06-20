@@ -1,0 +1,6 @@
+{
+    name: Ароматические углеводороды
+	type: liquid
+    color: "#7fc6bd"
+	gas: true
+}

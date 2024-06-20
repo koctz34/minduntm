@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#2c2f45"
+	name: Этилированный угольный газ
+	gas: true
+}

@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#dbf1c7"
+	name: Коксовый газ
+	gas: true
+}

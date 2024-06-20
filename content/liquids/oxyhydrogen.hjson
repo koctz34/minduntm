@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#3b31b4"
+	name: Гремучий газ
+	gas: true
+}

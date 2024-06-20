@@ -1,0 +1,6 @@
+{
+    name: Антиматерия
+	type: liquid
+    color: "#000000"
+	gas: true
+}

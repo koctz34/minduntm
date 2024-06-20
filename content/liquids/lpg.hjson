@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#4747ea"
+	name: Сжиженный попутный газ (СПГ)
+	gas: true
+}

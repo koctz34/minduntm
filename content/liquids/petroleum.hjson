@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#85c0d2"
+	name: Попутный нефтяной газ
+	gas: true
+}

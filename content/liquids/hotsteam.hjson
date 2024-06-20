@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#f0e5e5"
+	name: Горячий пар
+	gas: true
+}

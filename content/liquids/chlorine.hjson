@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#d6d074"
+	name: Хлор
+	gas: true
+}

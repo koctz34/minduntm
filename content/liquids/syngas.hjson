@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#191919"
+	name: Синтгаз
+	gas: true
+}

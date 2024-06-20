@@ -1,0 +1,6 @@
+{
+    name: Метан
+	type: liquid
+	gas: true
+    color: "#565656"
+}

@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#f0f0f0"
+	name: Пар
+	gas: true
+}

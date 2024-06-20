@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#605fab"
+	name: Реформированный газ
+	gas: true
+}

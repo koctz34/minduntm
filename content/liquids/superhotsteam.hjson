@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#f0d2d2"
+	name: Перегретый пар
+	gas: true
+}

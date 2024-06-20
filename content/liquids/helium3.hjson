@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#fcf0c6"
+	name: Гелий-3
+	gas: true
+}

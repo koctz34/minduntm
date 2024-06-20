@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#069af2"
+	name: Водород
+	gas: true
+}

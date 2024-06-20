@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#313131"
+	name: Угольный газ
+	gas: true
+}

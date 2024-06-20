@@ -1,0 +1,6 @@
+{
+    type: liquid
+    color: "#c6ba0a"
+	name: Кислый газ
+	gas: true
+}
