@@ -1,0 +1,66 @@
+type: multicraft.MultiCrafter
+requirements: [
+	ingot_steel/48
+	tank_steel/2
+	motor/2
+	plate_titanium/6
+	ingot_tungsten/10
+]
+craftTime: 100
+size: 3
+health: 200
+ambientSound: pumpjack
+ambientSoundVolume: 1
+squareSprite: false
+category: crafting
+
+hasLiquids: true
+hasPower: true
+
+menu: Simple
+
+recipes: 
+[
+{
+  input: {
+    power: 1
+  }
+  output: {
+    fluids: [
+      oil/0.5
+	  ntm-gas/0.3
+    ]
+  }
+  craftTime: 190.0
+}
+]
+
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+    {
+   type: DrawDefault
+   }
+         {
+type: DrawParticles
+particleLife: 120
+particleRad: 20
+particleSize: 6
+color: 555555
+particles: 20
+reverse: true
+}
+  ]
+}
+
+
+research: {
+requirements: [
+ingot_steel/2
+]
+parent: conveyorh
+objectives: [
+
+]
+}

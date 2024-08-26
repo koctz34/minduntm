@@ -1,0 +1,17 @@
+type: StorageBlock
+itemCapacity: 360
+coreMerge: true
+squareSprite: true
+health: 120
+size: 1
+category: effect
+requirements: [
+ingot_steel/5
+plate_steel/3
+]
+research: {
+parent: iron-crate
+requirements: [
+ingot_steel/2
+]
+}

@@ -1,0 +1,10 @@
+type: PowerNode
+size: 1
+maxNodes: 2
+laserRange: 10
+requirements: [
+plate_polymer/1
+coil_copper/1
+wire_red_copper/4
+]
+category: power

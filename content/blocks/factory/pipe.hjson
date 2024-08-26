@@ -1,0 +1,5 @@
+type: Conduit
+requirements: [
+plate_steel/1
+]
+category: liquid

@@ -1,0 +1,19 @@
+type: StorageBlock
+itemCapacity: 960
+coreMerge: true
+squareSprite: true
+health: 200
+size: 1
+category: effect
+requirements: [
+ingot_steel/5
+plate_steel/3
+ingot_desh/4
+ingot_polymer/2
+]
+research: {
+parent: steel-crate
+requirements: [
+ingot_desh/2
+]
+}

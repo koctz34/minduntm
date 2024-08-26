@@ -1,0 +1,10 @@
+type: PowerNode
+size: 1
+maxNodes: 6
+laserRange: 15
+requirements: [
+plate_polymer/2
+coil_copper/2
+ingot_steel/3
+]
+category: power

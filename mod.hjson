@@ -1,12 +1,15 @@
 name: "ntm"
 displayName: "NTM - Nuclear tech mod"
 author: "Ion - 7274"
-version: "1.3"
+version: "2.0"
 minGameVersion: "136"
-subtitle: "Nuclear KABOM!"
+subtitle: "Now with factories!"
+dependencies: ["multi-crafter"]
 description: '''
 Hbm's NTM (by Bobcat) in mindustry!
 And minecraft!
+
+Download MultiCrafter lib!
 
 Oh...
 Disable linear filtering in settings!

@@ -1,0 +1,29 @@
+type: ArmoredConveyor
+name: Cable
+conductivePower: true
+health: 5
+hasPower: true
+outputsPower: true
+liquidPressure: 0
+liquidCapacity: 0
+consumes: {
+  powerBuffered: 1
+} 
+requirements: [
+  wire_red_copper/1
+  plate_polymer/1
+]
+category: power
+research: {
+requirements: [
+wire_red_copper/1
+]
+parent: conveyorh
+objectives: [
+
+]
+}
+acceptsItems: false
+instantTransfer: false
+solid: false
+hasShadow: false

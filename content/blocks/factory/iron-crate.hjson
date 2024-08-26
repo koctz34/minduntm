@@ -1,0 +1,17 @@
+type: StorageBlock
+itemCapacity: 180
+coreMerge: true
+squareSprite: true
+health: 80
+size: 1
+category: effect
+requirements: [
+ingot_iron/5
+plate_iron/3
+]
+research: {
+parent: conveyorh
+requirements: [
+ingot_iron/2
+]
+}

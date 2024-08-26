@@ -1,0 +1,264 @@
+type: multicraft.MultiCrafter
+requirements: [
+	ingot_steel/4
+	plate_steel/4
+]
+craftTime: 100
+size: 3
+health: 200
+squareSprite: false
+category: crafting
+
+hasLiquids: true
+hasPower: true
+
+menu: Simple
+
+recipes: 
+[
+{
+  input: {
+    fluids: [
+      ntm-oil_coker/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-crackoil/0.03
+	  ntm-heatingoil/0.07
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-coaloil/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-coalgas/0.03
+	  oil/0.07
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-coalcreosote/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-coaloil/0.01
+	  ntm-bitumen/0.09
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-lightoil/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-diesel/0.04
+	  ntm-kerosene/0.06
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-naphtha_coker/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-naphtha_crack/0.075
+	  ntm-lightoil_crack/0.025
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-heavyoil/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-bitumen/0.03
+	  ntm-smear/0.07
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-smear/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-heatingoil/0.06
+	  ntm-lubricant/0.04
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-heavyoil_vacuum/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-smear/0.04
+	  ntm-heavyoil_vacuum/0.06
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-lightoil_vacuum/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-kerosene/0.07
+	  ntm-reformgas/0.03
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-lightoil_ds/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-diesel_reform/0.06
+	  ntm-kerosene_reform/0.04
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-naphtha_crack/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-heatingoil/0.03
+	  ntm-diesel_crack/0.07
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-naphtha_ds/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-xylene/0.06
+	  ntm-diesel_reform/0.04
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-reformate/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-aromatics/0.04
+	  ntm-xylene/0.06
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-gas_coker/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-aromatics/0.025
+	  ntm-carbondioxide/0.075
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-lightoil_crack/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-kerosene/0.07
+	  ntm-petroleum/0.03
+	]
+  }
+  craftTime: 20
+}
+{
+  input: {
+    fluids: [
+      ntm-naphtha/0.1
+    ]
+  }
+  output: {
+    fluids: [
+	  ntm-diesel/0.06
+	  ntm-heatingoil/0.04
+	]
+  }
+  craftTime: 20
+}
+]
+
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+    {
+   type: DrawDefault
+   }
+  ]
+}
+
+
+research: {
+requirements: [
+lead/1
+]
+parent: conveyorh
+objectives: [
+oil
+]
+}
