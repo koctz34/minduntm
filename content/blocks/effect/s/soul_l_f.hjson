@@ -1,0 +1,13 @@
+{
+    type: LightBlock
+    health: 500
+	brightness: 5
+    radius: 15
+    hasShadow: "false"
+    category: effect
+	rotate: true
+    requirements:
+    [
+        copper/1
+    ]
+}

@@ -1,7 +1,9 @@
 {
     type: Wall
     health: 500
-    category: turret
+    category: effect
+	hasShadow: false
+	rotate: true
     requirements:
     [
         copper/1
