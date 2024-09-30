@@ -1,0 +1,10 @@
+{
+    type: Wall
+    health: 500
+    hasShadow: "false"
+    category: logic
+    requirements:
+    [
+        copper/1
+    ]
+}
