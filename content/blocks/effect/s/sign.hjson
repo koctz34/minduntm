@@ -1,5 +1,5 @@
 {
-    type: Wall
+    type: MessageBlock
     health: 500
     hasShadow: "false"
     category: effect

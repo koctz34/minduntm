@@ -1,7 +1,7 @@
 {
     type: Wall
     health: 500
-    category: defense
+    category: production
     requirements:
     [
         copper/1
