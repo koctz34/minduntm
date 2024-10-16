@@ -1,8 +1,8 @@
 {
     type: Wall
     health: 500
-    hasShadow: "false"
     category: logic
+    hasShadow: "false"
     requirements:
     [
         copper/1

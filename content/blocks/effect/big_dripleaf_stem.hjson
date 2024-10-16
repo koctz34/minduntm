@@ -3,6 +3,7 @@
     health: 500
     hasShadow: "false"
     category: effect
+	rotate: true
     requirements:
     [
         copper/1

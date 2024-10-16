@@ -2,6 +2,7 @@
     type: Wall
     health: 500
     category: turret
+	hasShadow: false
     requirements:
     [
         copper/1

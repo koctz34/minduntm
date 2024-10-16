@@ -1,8 +1,8 @@
 {
     type: LightBlock
     health: 500
-	brightness: 40
-    radius: 15
+	brightness: 0.6
+    radius: 20
     hasShadow: "false"
     category: effect
 	rotate: true

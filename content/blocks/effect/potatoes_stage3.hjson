@@ -1,6 +1,7 @@
 {
     type: Wall
     health: 500
+	rotate: true
     category: effect
     hasShadow: "false"
     requirements:
