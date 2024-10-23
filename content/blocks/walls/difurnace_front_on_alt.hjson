@@ -1,6 +1,8 @@
 {
-    type: Wall
-    health: 500
+    type: LightBlock
+    health: 200
+    brightness: 0.3
+    radius: 8
     category: defense
     requirements:
     [

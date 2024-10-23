@@ -1,6 +1,8 @@
 {
-    type: Wall
-    health: 500
+    type: LightBlock
+    health: 200
+    brightness: 0.5
+    radius: 20
     category: turret
 	rotate: true
     requirements:

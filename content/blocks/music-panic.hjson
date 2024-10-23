@@ -1,8 +1,8 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Hacknet - Panic"
-  "ambientSound": hacknet_panic
+  "description": "Hacknet - Tetrameth"
+  "ambientSound": tetra
   "ambientSoundVolume": 1000000
   "pause": false
   "size": 2,

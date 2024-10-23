@@ -1,5 +1,6 @@
 {
     type: Wall
+	rotate: true
     health: 500
     category: turret
     requirements:

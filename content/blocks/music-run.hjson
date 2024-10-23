@@ -1,8 +1,8 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "NTM: Space - Godspeed"
-  "ambientSound": godspeed
+  "description": "ULTRAKILL - War"
+  "ambientSound": war-u
   "ambientSoundVolume": 1000000
   "pause": false
   "size": 2,

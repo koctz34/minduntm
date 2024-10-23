@@ -1,0 +1,9 @@
+{
+    type: Wall
+    health: 500
+    category: production
+    requirements:
+    [
+        copper/1
+    ]
+}

@@ -1,7 +1,7 @@
 {
     type: LightBlock
     health: 500
-	brightness: 0.8
+	brightness: 0.5
     radius: 30
     hasShadow: "false"
     category: effect

@@ -1,8 +1,8 @@
 {
     type: LightBlock
     health: 200
-    brightness: 0.5
-    radius: 50
+    brightness: 0.4
+    radius: 40
     hasShadow: "false"
     category: effect
     requirements:
