@@ -1,8 +1,8 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Hacknet - Malware Injection"
-  "ambientSound": hacknet_malware_injection
+  "description": "M.A.D.E.S - Return"
+  "ambientSound": return
   "ambientSoundVolume": 1000000
   "pause": false
   "size": 2,

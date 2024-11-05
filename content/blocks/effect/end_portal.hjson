@@ -1,0 +1,11 @@
+{
+    type: Floor
+    health: 500
+    category: effect
+	variants: 0
+	size: 6
+    requirements:
+    [
+        copper/1
+    ]
+}

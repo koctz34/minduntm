@@ -1,0 +1,9 @@
+{
+    type: Wall
+    health: 500
+    category: effect
+    requirements:
+    [
+        copper/1
+    ]
+}

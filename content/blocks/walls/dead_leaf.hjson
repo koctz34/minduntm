@@ -1,6 +1,8 @@
 {
     type: Wall
     health: 500
+	hasShadow: false
+	rotate: true
     category: defense
     requirements:
     [

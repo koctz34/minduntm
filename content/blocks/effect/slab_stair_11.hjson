@@ -1,0 +1,11 @@
+{
+    type: Wall
+    health: 500
+    category: effect
+    hasShadow: "false"
+    rotate: "true"
+    requirements:
+    [
+        copper/1
+    ]
+}

@@ -1,0 +1,10 @@
+{    
+    type: CanvasBlock
+    health: 500
+    size: 1
+    canvasSize: 16
+    requirements: [
+     copper/1
+    ]
+    category: logic
+}

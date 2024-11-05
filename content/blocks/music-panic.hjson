@@ -1,8 +1,8 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Hacknet - Tetrameth"
-  "ambientSound": tetra
+  "description": "MASTER BOOT RECORD - PERSONAL COMPUTER"
+  "ambientSound": boot
   "ambientSoundVolume": 1000000
   "pause": false
   "size": 2,
