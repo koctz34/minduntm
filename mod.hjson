@@ -1,13 +1,12 @@
 name: "ntm"
 displayName: "NTM - Nuclear tech mod"
 author: "Ion - 7274"
-version: "2.7"
+version: "2.8"
 minGameVersion: "136"
 subtitle: "Uh.. factories is deleted"
 description: '''
 Hbm's NTM (by Bobcat) in mindustry!
-And minecraft!
+And Minecraft!
 
-Oh...
 Disable linear filtering in settings!
 '''

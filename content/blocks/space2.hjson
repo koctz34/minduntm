@@ -1,0 +1,9 @@
+cacheLayer: space
+placeableOn: true
+solid: false
+variants: 0
+canShadow: false
+requirements: [
+     copper/1
+    ]
+    category: effect
