@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Rain World - Weyuon"
+  "description": "NTM: Space - Goop"
   "ambientSound": 6
   "ambientSoundVolume": 1000000
   "pause": false

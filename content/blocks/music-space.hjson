@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Factorio: Space Age - Fulgora hero"
+  "description": "NTM: Space - Space Beat"
   "ambientSound": space
   "ambientSoundVolume": 1000000
   "pause": false

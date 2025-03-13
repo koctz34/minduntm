@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "??? - ReLifeXB2"
+  "description": "ICBM - 1 Minute Action 1"
   "ambientSound": run
   "ambientSoundVolume": 1000000
   "pause": false

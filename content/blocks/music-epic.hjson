@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Red Alert 3 - Hell March 3"
+  "description": "ICBM - End Game 0"
   "ambientSound": epic
   "ambientSoundVolume": 1000000
   "pause": false

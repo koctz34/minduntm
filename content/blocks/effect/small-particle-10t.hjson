@@ -1,0 +1,11 @@
+{
+    type: Unloader
+    health: 500
+    category: distribution
+    rotate: "true"
+    hasShadow: "false"
+    requirements:
+    [
+        copper/1
+    ]
+}
