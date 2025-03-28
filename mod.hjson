@@ -1,12 +1,14 @@
 name: "ntm"
 displayName: "NTM - Nuclear tech mod"
 author: "Ion - 7274"
-version: "2.9"
+version: "3.0"
 minGameVersion: "136"
-subtitle: "Uh.. factories is deleted"
+subtitle: "Rust?"
 description: '''
 Hbm's NTM (by Bobcat) in mindustry!
-And Minecraft!
+Minecraft, Satisfactory, Rust, and other...
+
+Only decor blocks
 
 Disable linear filtering in settings!
 '''

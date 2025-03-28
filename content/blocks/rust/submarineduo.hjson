@@ -1,0 +1,10 @@
+{
+    type: Wall
+    health: 300
+    category: crafting
+    hasShadow: "false"
+    requirements:
+    [
+        copper/1
+    ]
+}
