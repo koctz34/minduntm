@@ -1,9 +1,9 @@
 name: "ntm"
 displayName: "NTM - Nuclear tech mod"
 author: "Ion - 7274"
-version: "3.0"
+version: "3.1"
 minGameVersion: "136"
-subtitle: "Rust?"
+subtitle: "Stalcraft? Maybe."
 description: '''
 Hbm's NTM (by Bobcat) in mindustry!
 Minecraft, Satisfactory, Rust, and other...

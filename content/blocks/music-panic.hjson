@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "ICBM - 1 Minute Action 2"
+  "description": "STALCRAFT: X - Master of the Zone"
   "ambientSound": panic
   "ambientSoundVolume": 1000000
   "pause": false

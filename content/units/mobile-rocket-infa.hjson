@@ -1,0 +1,101 @@
+	"outlineColor": "36363c",
+  "type": "mech",
+	"speed": 2,
+	"hitSize": 10,
+	"health": 400,
+	"faceTarget": true,
+	"armor": 30,
+	"rotateSpeed": 12,
+"mechStepParticles": true,
+fogRadius: 15,
+boostMultiplier: 3,
+buildSpeed: 1,
+canBoost: true,
+weapons: [
+{
+name: mobile-infa-rocket
+x: -6
+y: 1
+mirror: true
+top: false
+rotate: false
+reload: 35
+recoil: 3
+shootSound: rocket-fire
+ejectEffect: none
+bullet: {
+type: RocketBulletType
+width: 14
+"hitShake": 6,
+"despawnShake": 6,
+"sprite": "missile",
+height: 27
+damage: 200
+"splashDamageRadius": 40,
+  "splashDamage": 400,
+	"knockback": 5,
+speed: 8
+lifetime: 80
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 50
+strokeFrom: 2
+strokeTo: 0
+lifetime: 20
+colorFrom: fff4db
+colorTo: ffd266
+}
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 40
+strokeFrom: 7
+strokeTo: 0
+lifetime: 60
+colorFrom: fff4db
+colorTo: ffd266
+}
+{
+type: ParticleEffect
+particles: 4
+cone: 360
+length: 13
+lifetime: 120
+sizeFrom: 8
+sizeTo: 0
+colorFrom: ffd266
+colorTo: fff4db
+}
+{
+type: ParticleEffect
+particles: 4
+cone: 360
+length: 13
+lifetime: 60
+sizeFrom: 12
+sizeTo: 0
+colorFrom: ffd266
+colorTo: fff4db
+}
+{
+type: ParticleEffect
+particles: 8
+cone: 360
+length: 13
+lifetime: 400
+sizeFrom: 18
+sizeTo: 0
+colorFrom: ffffff
+colorTo: 000000
+}
+]
+}
+}
+}
+]

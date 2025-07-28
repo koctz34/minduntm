@@ -1,0 +1,276 @@
+
+  name: Helicopter Mi-24
+  health: 4050
+  armor: 2
+  speed: 2.4
+  accel: 0.07
+  drag: 0.02
+  rotateSpeed: 3
+  hitSize: 39
+  flying: true
+  lowAltitude: true
+  itemCapacity: 20
+  targetAir: true
+  targetGround: true
+
+  weapons: [
+    {
+      name: mi24-gun
+	  top: false
+	  layer: 50
+	  x: 0
+      y: 48
+      rotate: true
+      mirror: false
+	  reload: 6
+      bullet: {
+        speed: 4
+        damage: 8
+        lifetime: 60
+		trailColor: ffc880
+trailLength: 2
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+particles: 4
+cone: 6
+length: 13
+lifetime: 30
+sizeFrom: 2
+sizeTo: 0
+colorFrom: ffc880
+colorTo: ffa22a
+}
+]
+}
+      }
+    }
+
+    {
+      name: mi24-rocket
+	  x: 19
+      y: 6
+	  layer: 50
+      mirror: true
+	  top: false
+      rotate: false
+      reload: 45
+      bullet: {
+type: RocketBulletType
+width: 14
+"hitShake": 6,
+"despawnShake": 6,
+"sprite": "missile",
+height: 27
+damage: 200
+"splashDamageRadius": 40,
+  "splashDamage": 400,
+	"knockback": 5,
+speed: 8
+lifetime: 80
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 50
+strokeFrom: 2
+strokeTo: 0
+lifetime: 20
+colorFrom: fff4db
+colorTo: ffd266
+}
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 40
+strokeFrom: 7
+strokeTo: 0
+lifetime: 60
+colorFrom: fff4db
+colorTo: ffd266
+}
+{
+type: ParticleEffect
+particles: 4
+cone: 360
+length: 13
+lifetime: 120
+sizeFrom: 8
+sizeTo: 0
+colorFrom: ffd266
+colorTo: fff4db
+}
+{
+type: ParticleEffect
+particles: 4
+cone: 360
+length: 13
+lifetime: 60
+sizeFrom: 12
+sizeTo: 0
+colorFrom: ffd266
+colorTo: fff4db
+}
+{
+type: ParticleEffect
+particles: 8
+cone: 360
+length: 13
+lifetime: 400
+sizeFrom: 18
+sizeTo: 0
+colorFrom: ffffff
+colorTo: 000000
+}
+]
+}
+}
+    }
+
+    {
+       name: mi24-bomb
+	  x: 14
+      y: 6
+	  layer: 50
+      mirror: true
+	  top: false
+      rotate: false
+      reload: 80
+      bullet: {
+type: RocketBulletType
+width: 14
+"hitShake": 6,
+"despawnShake": 6,
+"despawnShake": 6,
+"sprite": "missile",
+height: 27
+damage: 200
+"splashDamageRadius": 40,
+  "splashDamage": 400,
+	"knockback": 5,
+speed: 8
+lifetime: 80
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 50
+strokeFrom: 2
+strokeTo: 0
+lifetime: 20
+colorFrom: fff4db
+colorTo: ffd266
+}
+{
+type: WaveEffect
+sides: 0
+sizeFrom: 0
+sizeTo: 40
+strokeFrom: 7
+strokeTo: 0
+lifetime: 60
+colorFrom: fff4db
+colorTo: ffd266
+}
+{
+type: ParticleEffect
+particles: 4
+cone: 360
+length: 13
+lifetime: 120
+sizeFrom: 8
+sizeTo: 0
+colorFrom: ffd266
+colorTo: fff4db
+}
+{
+type: ParticleEffect
+particles: 4
+cone: 360
+length: 13
+lifetime: 60
+sizeFrom: 12
+sizeTo: 0
+colorFrom: ffd266
+colorTo: fff4db
+}
+{
+type: ParticleEffect
+particles: 8
+cone: 360
+length: 13
+lifetime: 400
+sizeFrom: 18
+sizeTo: 0
+colorFrom: ffffff
+colorTo: 000000
+}
+]
+}
+}
+    }
+  ]
+
+  engineOffset: 0
+  engineSize: 0
+  shadow: true
+
+  abilities: [
+  {
+    type: StatusFieldAbility
+    range: -1
+    reload: 5
+    effectY: 16
+    parentizeEffects: true
+    activeEffect: [
+      {
+        followParent: false
+        length: 50
+        layer: 90.0001
+        particles: 3
+        lifetime: 40
+        interp: pow3Out
+        sizeInterp: pow3In
+        sizeFrom: 5
+        sizeTo: 0
+        colorFrom: 787878
+        colorTo: 78787888
+      }
+    ]
+    effect: none
+  }
+  {
+    type: StatusFieldAbility
+    range: -1
+    reload: 5
+    effectY: 8
+    parentizeEffects: true
+    activeEffect: [
+      {
+        followParent: true
+        rotWithParent: true
+        useRotation: false
+        baseRotation: -15
+        lifetime: 6
+        length: 0
+        spin: 10
+        region: ntm-mi24-top
+        layer: 90.0001
+        sizeFrom: 50
+        sizeTo: 50
+		rotateFrom: 0
+		rotateTo: 180
+      }
+    ]
+    effect: none
+  }
+]

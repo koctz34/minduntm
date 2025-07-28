@@ -2,7 +2,7 @@
     type: Wall
     health: 500
     category: effect
-    hasShadow: "false"
+
     requirements:
     [
         copper/1
