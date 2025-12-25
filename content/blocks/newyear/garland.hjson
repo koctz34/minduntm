@@ -1,0 +1,26 @@
+{
+    type: GenericCrafter
+	"pause": false
+	"hasItems": false,
+  "craftTime": 1000,
+  "hasLiquids": false,
+  "updateEffect": "none",
+    health: 300
+    category: power
+	"ambientSoundVolume": 0
+    hasShadow: "false"
+    requirements:
+    [
+        copper/1
+    ],
+	drawer: [
+  {
+    type: drawDefault
+  },
+  {
+	type: DrawFrames
+	frames: 4
+	interval: 35
+  }
+],
+}

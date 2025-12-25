@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "STALCRAFT: X - Master of the Zone"
+  "description": "STALCRAFT: X - Boral: Evacuation"
   "ambientSound": panic
   "ambientSoundVolume": 1000000
   "pause": false

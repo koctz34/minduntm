@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Preceti - Lone (Factorio mod)"
+  "description": "STALCRAFT: X - Operations: Big cleanup"
   "ambientSound": run
   "ambientSoundVolume": 1000000
   "pause": false

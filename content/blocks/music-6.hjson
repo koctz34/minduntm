@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "STALCRAFT (Old) - Bar 3"
+  "description": "STALCRAFT: X - Attack on perimeter: Swamps (Болота)"
   "ambientSound": 6
   "ambientSoundVolume": 1000000
   "pause": false

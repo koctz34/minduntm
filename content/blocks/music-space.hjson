@@ -1,7 +1,7 @@
   "type": "GenericCrafter",
 	 "researchCostMultiplier": 0.5,
   "health": 50,
-  "description": "Satisfactory - Caverns"
+  "description": "STALCRAFT: X - MG ambient 2"
   "ambientSound": space
   "ambientSoundVolume": 1000000
   "pause": false

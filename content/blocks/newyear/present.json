@@ -1,0 +1,11 @@
+{    
+    "type": "Wall",
+    "health": 500,
+    "size": 1,
+	"rotate": true,
+  "variants": 8,
+    "requirements": [
+     "metaglass/6"
+    ],
+    "category": "power",
+}
