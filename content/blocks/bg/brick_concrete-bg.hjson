@@ -1,0 +1,12 @@
+{
+    type: Floor
+    category: power
+    placeableOn: true
+    solid: false
+    variants: 0
+    drawEdgeOut: false
+    requirements:
+    [
+        copper/1
+    ]
+}

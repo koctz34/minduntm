@@ -1,0 +1,11 @@
+type: Floor
+cacheLayer: space
+            placeableOn: true
+            solid: false
+            variants: 0
+            canShadow: false
+            drawEdgeOut: false
+			requirements: [
+     copper/1
+    ]
+    category: effect
